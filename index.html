@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koçoğlu Tarım A.Ş. | Çocuğunuz İçin En Saf Süt</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        'kocoglu-cream': '#FBFBF9',
+                        'kocoglu-dark': '#1A1A1A',
+                        'kocoglu-green': '#8A9A83', // Soluk, doğal yeşil
+                        'kocoglu-gray': '#F0F0EB'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Sadece Tailwind ile halledilemeyen zarif scrollbar dokunuşu */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #FBFBF9; }
+        ::-webkit-scrollbar-thumb { background: #8A9A83; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-kocoglu-cream text-kocoglu-dark font-sans antialiased selection:bg-kocoglu-green selection:text-white">
+
+    <header id="navbar" class="fixed w-full top-0 z-50 transition-all duration-500 py-6 px-6 md:px-16 bg-transparent">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="font-serif text-2xl tracking-wide font-semibold text-kocoglu-dark">Koçoğlu</a>
+            <nav class="hidden md:flex space-x-8 text-sm tracking-widest uppercase">
+                <a href="#ozellikler" class="hover:text-kocoglu-green transition-colors">Özellikler</a>
+                <a href="#rehber" class="hover:text-kocoglu-green transition-colors">Rehber</a>
+                <a href="#satis-noktalari" class="hover:text-kocoglu-green transition-colors">Satış Noktaları</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative min-h-screen flex items-center justify-center px-6 pt-24 pb-12">
+        <div class="max-w-4xl mx-auto text-center space-y-8 mt-16 md:mt-0">
+            <span class="block text-kocoglu-green tracking-[0.2em] text-xs md:text-sm uppercase font-medium">Lüks Segment Çocuk Sütü</span>
+            <h1 class="font-serif text-5xl md:text-7xl leading-tight text-kocoglu-dark">
+                Çocuğunuz İçin,<br>
+                <i class="text-kocoglu-green font-light">Doğanın En Saf Hali.</i>
+            </h1>
+            <p class="text-lg md:text-xl font-light max-w-2xl mx-auto leading-relaxed text-gray-600">
+                Kocaeli'nin tek hastalıktan ari Simental çiftliğinden, el değmeden şişelenen günlük taze süt.
+            </p>
+            <div class="pt-8">
+                <a href="#satis-noktalari" class="inline-block bg-kocoglu-dark text-white px-10 py-4 text-sm tracking-widest uppercase hover:bg-kocoglu-green transition-all duration-300">
+                    Nereden Alabilirim?
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ozellikler" class="py-32 px-6 md:px-16 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-12">
+                <div class="space-y-6 text-center md:text-left group">
+                    <div class="w-12 h-12 border border-kocoglu-green mx-auto md:mx-0 flex items-center justify-center rounded-full group-hover:bg-kocoglu-green transition-colors duration-500">
+                        <span class="block w-2 h-2 bg-kocoglu-dark rounded-full group-hover:bg-white transition-colors duration-500"></span>
+                    </div>
+                    <h3 class="font-serif text-2xl">Kalın Kaymak</h3>
+                    <p class="text-gray-600 font-light leading-relaxed text-sm">
+                        Simental ineklerimizin yüksek yağ oranlı sütü sayesinde, çocuklarınızın bayılacağı doğal, sarı ve kalın bir kaymak tabakası elde edersiniz.
+                    </p>
+                </div>
+                <div class="space-y-6 text-center md:text-left group">
+                    <div class="w-12 h-12 border border-kocoglu-green mx-auto md:mx-0 flex items-center justify-center rounded-full group-hover:bg-kocoglu-green transition-colors duration-500">
+                        <span class="block w-2 h-2 bg-kocoglu-dark rounded-full group-hover:bg-white transition-colors duration-500"></span>
+                    </div>
+                    <h3 class="font-serif text-2xl">Taş Gibi Yoğurt Garantisi</h3>
+                    <p class="text-gray-600 font-light leading-relaxed text-sm">
+                        Kuru madde oranı yüksek sütümüzle mayaladığınız yoğurtlar, kıvam artırıcıya ihtiyaç duymadan kaşıkta kalıplaşır.
+                    </p>
+                </div>
+                <div class="space-y-6 text-center md:text-left group">
+                    <div class="w-12 h-12 border border-kocoglu-green mx-auto md:mx-0 flex items-center justify-center rounded-full group-hover:bg-kocoglu-green transition-colors duration-500">
+                        <span class="block w-2 h-2 bg-kocoglu-dark rounded-full group-hover:bg-white transition-colors duration-500"></span>
+                    </div>
+                    <h3 class="font-serif text-2xl">%100 Güvenilirlik</h3>
+                    <p class="text-gray-600 font-light leading-relaxed text-sm">
+                        Devlet onaylı 'Hastalıktan Ari' sertifikamızla, tüberküloz ve brusella riskinden tamamen uzak, tam şeffaf üretim süreci.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rehber" class="py-32 px-6 md:px-16 bg-kocoglu-gray">
+        <div class="max-w-3xl mx-auto space-y-16">
+            <div class="text-center space-y-4">
+                <h2 class="font-serif text-4xl">Anneler İçin Pratik Rehber</h2>
+                <p class="text-gray-600 font-light">Sütümüzü en iyi şekilde hazırlamanız için küçük sırlar.</p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="border-b border-gray-300">
+                    <button class="w-full text-left py-6 flex justify-between items-center focus:outline-none accordion-btn">
+                        <span class="font-serif text-xl">Doğru Süt Kaynatma Tekniği</span>
+                        <svg class="w-5 h-5 transform transition-transform duration-300 text-kocoglu-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="hidden accordion-content text-gray-600 font-light text-sm pb-6 leading-relaxed">
+                        Sütü tencereye alın ve orta ateşte ısıtmaya başlayın. Kaynama noktasına (yaklaşık 90°C) geldiğinde, altını kısıp 5-7 dakika kadar havalandırarak kaynatmaya devam edin. Bu işlem, içindeki faydalı bakterileri öldürmeden zararlıları yok etmenin en saf yoludur.
+                    </div>
+                </div>
+                
+                <div class="border-b border-gray-300">
+                    <button class="w-full text-left py-6 flex justify-between items-center focus:outline-none accordion-btn">
+                        <span class="font-serif text-xl">Taş Gibi Yoğurt Nasıl Mayalanır?</span>
+                        <svg class="w-5 h-5 transform transition-transform duration-300 text-kocoglu-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="hidden accordion-content text-gray-600 font-light text-sm pb-6 leading-relaxed">
+                        Kaynattığınız sütü 45-47°C'ye (serçe parmağınızı hafif ısıracak sıcaklık) kadar soğutun. Her 1 litre süt için 1 yemek kaşığı oda sıcaklığındaki yoğurdu az miktarda ılık sütle ezip tencereye ekleyin. İyice sarıp 4-5 saat mayalanmaya bırakın. Ardından dolapta 24 saat kapağı açık dinlendirin.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="satis-noktalari" class="py-32 px-6 md:px-16 bg-white">
+        <div class="max-w-7xl mx-auto space-y-16">
+            <div class="text-center space-y-4">
+                <h2 class="font-serif text-4xl">Sütümüze Nereden Ulaşabilirsiniz?</h2>
+                <p class="text-gray-600 font-light">Günlük taze sağım sütlerimiz sadece seçkin noktalarda.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="p-10 border border-gray-200 hover:border-kocoglu-green transition-colors duration-500 bg-kocoglu-cream text-center md:text-left">
+                    <h3 class="font-serif text-2xl mb-2">Yahya Kaptan</h3>
+                    <p class="text-kocoglu-green text-sm tracking-widest uppercase mb-6">Gurme Şarküteri</p>
+                    <p class="text-gray-600 font-light text-sm leading-relaxed">
+                        Yahya Kaptan Mah. Akasyalar Cad. No: 12<br>
+                        İzmit, Kocaeli
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-gray-200 text-sm font-medium">
+                        Stok Yenilenme: Her sabah 08:30
+                    </div>
+                </div>
+                <div class="p-10 border border-gray-200 hover:border-kocoglu-green transition-colors duration-500 bg-kocoglu-cream text-center md:text-left">
+                    <h3 class="font-serif text-2xl mb-2">Başiskele</h3>
+                    <p class="text-kocoglu-green text-sm tracking-widest uppercase mb-6">Doğal Yaşam Mandırası</p>
+                    <p class="text-gray-600 font-light text-sm leading-relaxed">
+                        Barbaros Mah. Sahil Yolu Sok. No: 4<br>
+                        Başiskele, Kocaeli
+                    </p>
+                    <div class="mt-6 pt-6 border-t border-gray-200 text-sm font-medium">
+                        Stok Yenilenme: Her sabah 09:15
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-kocoglu-dark text-white py-16 px-6 md:px-16">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <h4 class="font-serif text-2xl mb-2">Koçoğlu Tarım A.Ş.</h4>
+                <p class="text-gray-400 font-light text-sm">Kocaeli'nin Hastalıktan Ari Çiftliği</p>
+            </div>
+            
+            <div class="flex gap-6 items-center">
+                <span class="text-xs tracking-widest text-gray-400 uppercase">Sertifikalarımız:</span>
+                <div class="w-10 h-10 border border-gray-600 flex items-center justify-center text-xs font-serif text-gray-300">HA</div>
+                <div class="w-10 h-10 border border-gray-600 flex items-center justify-center text-xs font-serif text-gray-300">TSE</div>
+            </div>
+
+            <div class="text-center md:text-right text-gray-400 font-light text-sm">
+                <p>info@kocoglutarim.com</p>
+                <p class="mt-1">+90 (532) XXX XX XX</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
+            &copy; 2026 Koçoğlu Tarım A.Ş. Tüm hakları saklıdır.
+        </div>
+    </footer>
+
+    <script>
+        // Header Scroll Animasyonu
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.remove('bg-transparent', 'py-6');
+                navbar.classList.add('bg-white', 'shadow-sm', 'py-4');
+            } else {
+                navbar.classList.add('bg-transparent', 'py-6');
+                navbar.classList.remove('bg-white', 'shadow-sm', 'py-4');
+            }
+        });
+
+        // Akordeon Menü Mantığı
+        const accordionBtns = document.querySelectorAll('.accordion-btn');
+        accordionBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('svg');
+                
+                // Diğerlerini kapatmak istersen buraya bir döngü eklenebilir, şimdilik bağımsız aç/kapa yapıyoruz
+                content.classList.toggle('hidden');
+                
+                if(content.classList.contains('hidden')) {
+                    icon.classList.remove('rotate-180');
+                } else {
+                    icon.classList.add('rotate-180');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
